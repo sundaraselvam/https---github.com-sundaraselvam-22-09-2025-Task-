@@ -15,8 +15,6 @@ body {
   font-family: "Poppins", Arial, sans-serif;
   color: #1b1b1b;
 }
-
-/* Colors */
 .orange {
   color: var(--orange);
 }
@@ -36,13 +34,10 @@ p,
   font-family: "Poppins", Arial, sans-serif;
   font-weight: 400;
 }
-
-/* Layout */
 .wrapper {
   max-width: 1140px;
   margin: 0 auto;
 }
-/* NAVBAR */
 .navbar {
   display: flex;
   align-items: center;
@@ -80,8 +75,6 @@ p,
   padding: 7px 18px;
   border-radius: 10px;
 }
-
-/* HERO SECTION with layering */
 .hero-main {
   display: flex;
   align-items: center;
@@ -144,8 +137,6 @@ p,
   max-width: 345px;
   position: relative;
 }
-
-/* Hero image background behind */
 .hero-col-2 img[src$="tourist-background.png"] {
   position: absolute;
   left: calc(100% - 240px);
@@ -156,8 +147,6 @@ p,
   border-radius: 60% 50% 68% 52% / 70% 54% 60% 65%;
   opacity: 0.8;
 }
-
-/* Hero main image above background */
 .hero-col-2 img[src$="tourist.png"] {
   position: relative;
   width: 330px;
@@ -165,9 +154,6 @@ p,
   border-radius: 60% 50% 68% 52% / 70% 54% 60% 65%;
   z-index: 2;
 }
-
-/* Sections */
-
 section {
   padding: 60px 0;
   text-align: center;
@@ -182,8 +168,6 @@ section > p {
   font-weight: 500;
   margin-bottom: 40px;
 }
-
-/* DEALS CARDS */
 .deal-cards {
   display: flex;
   justify-content: center;
@@ -252,8 +236,6 @@ section > p {
   top: 124px;
   cursor: pointer;
 }
-
-/* Carousel Controls */
 .carousel-controls {
   text-align: center;
   margin: 30px 0 0 0;
@@ -273,8 +255,6 @@ section > p {
   background: var(--orange);
   color: #fff;
 }
-
-/* TESTIMONIAL */
 .testimonials {
   background: var(--section-bg);
 }
@@ -311,8 +291,6 @@ section > p {
   margin-left: 14px;
   font-style: italic;
 }
-
-/* THINGS TO DO */
 .things-todo {
   background: var(--section-bg);
 }
@@ -348,8 +326,6 @@ section > p {
   color: #777;
   font-size: 1.02rem;
 }
-
-/* VACATION PLAN */
 .vacation-plan {
   background: #fcfcfc;
 }
@@ -399,8 +375,6 @@ section > p {
   font-size: 0.96rem;
   color: #848484;
 }
-
-/* BLOG/UPDATE */
 .latest-blog {
   background: #fff;
 }
@@ -434,8 +408,6 @@ section > p {
   color: #b7b7b7;
   font-size: 0.95rem;
 }
-
-/* blog section dots */
 .blog-dots {
   text-align: center;
   margin-top: 20px;
@@ -451,8 +423,6 @@ section > p {
 .blog-dots .active {
   background: var(--orange);
 }
-
-/* SUBSCRIBE */
 .subscribe-area {
   background: var(--section-bg);
   padding-bottom: 80px;
@@ -499,8 +469,6 @@ section > p {
   border-radius: 0 8px 8px 0;
   margin-left: 10px;
 }
-
-/* FOOTER */
 .footer {
   background: var(--section-bg);
   padding: 60px 0 22px 0;
